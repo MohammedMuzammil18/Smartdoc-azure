@@ -1,0 +1,62 @@
+# ── Secrets & Credentials ──────────────────────────────────────────────────────
+.env
+.env.local
+.env.production
+
+# ── Python ─────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+pip-log.txt
+
+# ── ML Artefacts (large files) ─────────────────────────────────────────────────
+*.pkl
+*.h5
+*.model
+*.joblib
+
+# ── Database ───────────────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Node / Frontend ────────────────────────────────────────────────────────────
+node_modules/
+dist/
+.pnpm-store/
+.pnpm-debug.log
+
+# ── Build Artefacts ────────────────────────────────────────────────────────────
+*.egg-info/
+*.egg
+.eggs/
+.tox/
+build/
+dist/
+
+# ── Editor / OS ────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ───────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Azure & Deployment ─────────────────────────────────────────────────────────
+.azure/
+*.pfx
+*.pem
+*.key
+serviceAccountKey.json

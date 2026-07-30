@@ -1,0 +1,17 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html"
+  },
+  "routes": [
+    {
+      "route": "/predict",
+      "methods": ["POST"],
+      "allowedRoles": ["anonymous", "authenticated"]
+    },
+    {
+      "route": "/search",
+      "methods": ["POST"],
+      "allowedRoles": ["anonymous", "authenticated"]
+    }
+  ]
+}
